@@ -6,7 +6,7 @@
 /*   By: dmendoza <dmendoza@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 08:41:51 by dmendoza          #+#    #+#             */
-/*   Updated: 2025/01/08 11:48:56 by dmendoza         ###   ########.fr       */
+/*   Updated: 2025/01/08 18:20:29 by dmendoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,7 +104,7 @@ char	*get_next_line(int fd)
 	static char	*stack;
 	char		*line;
 
-	if (fd < 0 || BUFFER_SIZE <= 0 || read(fd, 0, 0) < 0)
+	if (fd < 0 || BUFFER_SIZE <= 0)
 		return (NULL);
 	stack = ft_read(fd, stack);
 	if (!stack)
