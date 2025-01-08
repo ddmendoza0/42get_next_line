@@ -6,7 +6,7 @@
 /*   By: dmendoza <dmendoza@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 12:12:05 by dmendoza          #+#    #+#             */
-/*   Updated: 2025/01/08 12:53:50 by dmendoza         ###   ########.fr       */
+/*   Updated: 2025/01/08 14:04:36 by dmendoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,4 +87,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(ptr, t_size);
 	return (ptr);
 }
-

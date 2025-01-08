@@ -6,12 +6,12 @@
 /*   By: dmendoza <dmendoza@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 12:10:20 by dmendoza          #+#    #+#             */
-/*   Updated: 2025/01/08 12:57:37 by dmendoza         ###   ########.fr       */
+/*   Updated: 2025/01/08 14:04:15 by dmendoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#ifndef GET_NEXT_LINE_BONUS_H
+# define GET_NEXT_LINE_BONUS_H
 
 # include <unistd.h>
 # include <fcntl.h>	/*read*/

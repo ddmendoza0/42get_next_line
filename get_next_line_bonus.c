@@ -6,7 +6,7 @@
 /*   By: dmendoza <dmendoza@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 12:11:19 by dmendoza          #+#    #+#             */
-/*   Updated: 2025/01/08 12:58:04 by dmendoza         ###   ########.fr       */
+/*   Updated: 2025/01/08 14:03:43 by dmendoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,4 +113,3 @@ char	*get_next_line(int fd)
 	stack[fd] = ft_next_line(stack[fd]);
 	return (line);
 }
-
