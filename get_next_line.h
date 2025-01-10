@@ -6,15 +6,14 @@
 /*   By: dmendoza <dmendoza@student.42barcelon      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/08 09:59:02 by dmendoza          #+#    #+#             */
-/*   Updated: 2025/01/08 11:58:20 by dmendoza         ###   ########.fr       */
+/*   Updated: 2025/01/10 09:49:08 by dmendoza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# include <unistd.h>
-# include <fcntl.h>	/*read*/
+# include <unistd.h>	/*read*/
 # include <stdint.h>	/*max size_t*/
 # include <stdlib.h>	/*malloc*/
 # ifndef BUFFER_SIZE
